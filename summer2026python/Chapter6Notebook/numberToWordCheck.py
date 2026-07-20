@@ -54,7 +54,6 @@ def turnNumberToWords(num: float):
         return dictonary_units[num]
     
     elif num < 100:
-        print("Test")
         return dictonary_tens[10 * (num // 10)] + " " + dictonary_units[num % 10]
     
     elif num < 1000:
